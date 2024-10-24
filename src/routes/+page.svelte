@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import cover from '$lib/gule-issue-01-cover.jpg';
+</script>
+
+<section class="w-full h-screen p-20 flex justify-center items-center bg-blue-950">
+	<div class="h-full">
+		<img class="h-full" src={cover} alt="" />
+	</div>
+</section>
